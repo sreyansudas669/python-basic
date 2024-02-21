@@ -1,9 +1,12 @@
 import timeit
+from memory_profiler import profile
 
+@profile
 def process_data(data):
     processed_data = [item.upper() for item in data]
     return processed_data
 
+@profile
 def main():
     data = ["item " + str(i) for i in range(100)]
 
