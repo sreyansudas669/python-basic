@@ -1,1 +1,1 @@
-only the keyword for basic of python 
+basic using understanding  of python 
